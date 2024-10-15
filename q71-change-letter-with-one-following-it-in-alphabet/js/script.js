@@ -19,8 +19,14 @@ function onClick() {
 	const output = document.getElementById("output");
 
 	let newStr = "";
+	const alphabetPattern = /[a-zA-Z]/;
 	for(let i=0; i<str.length; i++) {
-		newStr += nextAlphabet(str[i]);
+		if (alphabetPattern.test(str[i])) {
+			newStr += nextAlphabet(str[i]);
+		}
+		else {
+			newStr += str[i];
+		}
 	}
 
 	output.textContent = "New string is "+ newStr;
