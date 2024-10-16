@@ -15,7 +15,7 @@ function onClick() {
 	let newStr = "";
 	for (let i=0; i<arr.length; i++) {
 		if (isPalindrome(arr[i])) {
-			newStr += arr[i].split("").reduce((star, n) => star+="*", "");
+			newStr += "*".repeat(arr[i].length);
 		}
 		else {
 			newStr += arr[i];
