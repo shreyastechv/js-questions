@@ -1,5 +1,5 @@
 function onClick() {
-	const radius = parseFloat("12");
+	const radius = parseFloat(document.getElementById("radius").value);
 	const output = document.getElementById("output");
 
 	const surfaceArea = 4 * Math.PI * (radius ** 2);

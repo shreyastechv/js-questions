@@ -1,5 +1,5 @@
 function onClick() {
-	const length = parseFloat("12");
+	const length = parseFloat(document.getElementById("length").value);
 	const output = document.getElementById("output");
 
 	const surfaceArea = 6 * (length ** 2);

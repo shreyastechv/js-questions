@@ -1,5 +1,5 @@
 function onClick() {
-	const num = parseInt("6");
+	const num = parseInt(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	properDivisors = [1];

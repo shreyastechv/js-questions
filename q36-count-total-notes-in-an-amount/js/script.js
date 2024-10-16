@@ -1,5 +1,5 @@
 function onClick() {
-	const amount = parseInt("5880");
+	const amount = parseInt(document.getElementById("amount").value);
 	const output = document.getElementById("output");
 
 	let copyAmount = amount;

@@ -1,7 +1,7 @@
 function onClick() {
-	const length = parseFloat("12");
-	const width = parseFloat("4");
-	const height = parseFloat("13");
+	const length = parseFloat(document.getElementById("length").value);
+	const width = parseFloat(document.getElementById("width").value);
+	const height = parseFloat(document.getElementById("height").value);
 	const output = document.getElementById("output");
 
 	const surfaceArea = 2 * (length * width + width * height + height * length);

@@ -1,5 +1,5 @@
 function onClick() {
-	const basicSalary = parseInt("18500");
+	const basicSalary = parseInt(document.getElementById("basicSalary").value);
 	const output = document.getElementById("output");
 
 	let hra = 0;

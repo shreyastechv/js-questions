@@ -1,6 +1,6 @@
 function onClick() {
-	const radius = parseFloat("12");
-	const height = parseFloat("13");
+	const radius = parseFloat(document.getElementById("radius").value);
+	const height = parseFloat(document.getElementById("height").value);
 	const output = document.getElementById("output");
 
 	const surfaceArea = 2 * Math.PI * radius * (radius * height);

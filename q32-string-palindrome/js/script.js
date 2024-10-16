@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "Malayalam";
+	const str = document.getElementById("string").value;
 	const output = document.getElementById("output");
 
 	const strNew = str.trim().toLowerCase();
