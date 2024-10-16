@@ -1,7 +1,7 @@
 function onClick() {
-	const choice = parseInt("4");
-	const num1 = parseFloat("13.5");
-	const num2 = parseFloat("2.3");
+	const choice = parseInt(document.getElementById("choice").value);
+	const num1 = parseFloat(document.getElementById("num1").value);
+	const num2 = parseFloat(document.getElementById("num2").value);
 	let result = 0.0;
 	const output = document.getElementById("output");
 

@@ -1,5 +1,5 @@
 function onClick() {
-	const num = parseInt("4");
+	const num = parseInt(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	if (num % 2 == 0) {

@@ -10,7 +10,7 @@ function isPrime(num) {
 }
 
 function onClick() {
-	const num = parseInt("4");
+	const num = parseInt(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	if(isPrime(num)) {

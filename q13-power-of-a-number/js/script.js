@@ -1,6 +1,6 @@
 function onClick() {
-	const num = parseFloat("13.2");
-	const exponent = parseInt("5");
+	const num = parseFloat(document.getElementById("num").value);
+	const exponent = parseFloat(document.getElementById("exponent").value);
 	const output = document.getElementById("output");
 
 	const power = Math.pow(num, exponent).toFixed(3);

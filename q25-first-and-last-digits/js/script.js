@@ -1,5 +1,5 @@
 function onClick() {
-	const num = "1234";
+	const num = document.getElementById("num").value;
 	const output = document.getElementById("output");
 
 	const length = num.length;
