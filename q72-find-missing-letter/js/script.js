@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "abcefg";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let charCode = str[0].charCodeAt(0);

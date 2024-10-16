@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "tomorrow";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	for(let i=0; i<str.length; i++) {

@@ -1,7 +1,7 @@
 function onClick() {
-	const str = "Hello, World!";
-	const substr = "World";
-	const anotherStr = "Life"
+	const str = document.getElementById("str").value;
+	const substr = document.getElementById("substr").value;
+	const anotherStr = document.getElementById("anotherStr").value;
 	const output = document.getElementById("output");
 
 	newStr = str.replace(substr, anotherStr);

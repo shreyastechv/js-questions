@@ -1,6 +1,6 @@
 function onClick() {
-	const str = "Harry Potter";
-	const substr = "Harry";
+	const str = document.getElementById("str").value;
+	const substr = document.getElementById("substr").value;
 	const output = document.getElementById("output");
 
 	if(substr == str.substring(0,substr.length)) {

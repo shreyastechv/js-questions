@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "aBCdeFgHI;"
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let newStr="";
