@@ -15,7 +15,7 @@ function nextAlphabet(ch) {
 }
 
 function onClick() {
-	const str = "javascript"
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let newStr = "";

@@ -1,6 +1,6 @@
 function onClick() {
-	const str = "granddaughter";
-	const ch = "d";
+	const str = document.getElementById("str").value;
+	const ch = document.getElementById("ch").value;
 	const output = document.getElementById("output");
 
 	let occurance = 0;

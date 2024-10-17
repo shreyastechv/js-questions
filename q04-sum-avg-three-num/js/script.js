@@ -1,7 +1,7 @@
 function onClick() {
-	const num1 = parseInt("2");
-	const num2 = parseInt("3");
-	const num3 = parseInt("5");
+	const num1 = parseInt(document.getElementById("num1").value);
+	const num2 = parseInt(document.getElementById("num2").value);
+	const num3 = parseInt(document.getElementById("num3").value);
 	const output = document.getElementById("output");
 
 	const sum = num1 + num2 + num3;

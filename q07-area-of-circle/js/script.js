@@ -1,5 +1,5 @@
 function onClick() {
-	const radius = parseFloat("13.5");
+	const radius = parseFloat(document.getElementById("radius"));
 	const output = document.getElementById("output");
 
 	const area = Math.PI * Math.pow(radius, 2);

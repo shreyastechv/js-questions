@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "js is the best programming language in the world";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let smallest = "", largest = "";

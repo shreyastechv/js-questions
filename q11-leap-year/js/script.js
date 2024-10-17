@@ -1,5 +1,5 @@
 function onClick() {
-	const year = parseInt("1700");
+	const year = parseInt(document.getElementById("year").value);
 	const output = document.getElementById("output");
 
 	if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) {

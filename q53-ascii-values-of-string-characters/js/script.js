@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "technology";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	result = "";

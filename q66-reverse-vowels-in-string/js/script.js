@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "apuupile";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	const vowels = ['a','e','i','o','u','A','E','I','O','U'];

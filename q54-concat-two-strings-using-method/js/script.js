@@ -1,6 +1,6 @@
 function onClick() {
-	const str1 = "Hello, ";
-	const str2 = "World!";
+	const str1 = document.getElementById("str1").value;
+	const str2 = document.getElementById("str2").value;
 	const output = document.getElementById("output");
 
 	const newStr = str1.concat(str2);

@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "chatgpt";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	const firstChar = str[0];

@@ -1,7 +1,7 @@
 function onClick() {
-	const maths = parseInt("72");
-	const physics = parseInt("65");
-	const chemistry = parseInt("51");
+	const maths = parseInt(document.getElementById("maths").value);
+	const physics = parseInt(document.getElementById("physics").value);
+	const chemistry = parseInt(document.getElementById("chemistry").value);
 	const output = document.getElementById("output");
 
 	total = maths + physics + chemistry;

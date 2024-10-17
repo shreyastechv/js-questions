@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "beauTIful";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let vowelCount=0, consonantCount=0;

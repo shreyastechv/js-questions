@@ -1,5 +1,5 @@
 function onClick() {
-	const num = parseInt("25");
+	const num = parseInt(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	const sum = num * (num+1) / 2;

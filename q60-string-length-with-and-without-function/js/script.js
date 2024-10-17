@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "matrimony";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let strCopy = str;

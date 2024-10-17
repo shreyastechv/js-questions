@@ -1,5 +1,5 @@
 function onClick() {
-	const str = "dsf57hasbv@g";
+	const str = document.getElementById("str").value;
 	const output = document.getElementById("output");
 
 	let alphabetCount=0, numberCount=0, specialCharCount=0;

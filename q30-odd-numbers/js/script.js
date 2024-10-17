@@ -1,5 +1,5 @@
 function onClick() {
-	const n = parseInt("123");
+	const n = parseInt(document.getElementById("n").value);
 	const output = document.getElementById("output");
 
 	let result = "";

@@ -1,5 +1,5 @@
 function onClick() {
-	const num = parseFloat("15.4");
+	const num = parseFloat(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	if (num > 0) {

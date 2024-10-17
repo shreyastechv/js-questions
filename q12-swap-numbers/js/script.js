@@ -1,6 +1,6 @@
 function onClick() {
-	let num1 = parseFloat("13.5");
-	let num2 = parseFloat("2.1");
+	let num1 = parseFloat(document.getElementById("num1").value);
+	let num2 = parseFloat(document.getElementById("num2").value);
 	const output = document.getElementById("output");
 
 	let tmp = num1;

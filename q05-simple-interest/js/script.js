@@ -1,7 +1,7 @@
 function onClick() {
-	const principal = parseInt("15000");
-	const rate = parseFloat("12.5");
-	const timeInYears = parseInt("5");
+	const principal = parseInt(document.getElementById("principal").value);
+	const rate = parseFloat(document.getElementById("rate").value);
+	const timeInYears = parseInt(document.getElementById("time").value);
 	const output = document.getElementById("output");
 
 	const simpleInterest = (principal * rate * timeInYears) / 100;

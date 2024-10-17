@@ -1,5 +1,5 @@
 function onClick() {
-	const num = parseInt("4");
+	const num = parseInt(document.getElementById("num").value);
 	const output = document.getElementById("output");
 
 	const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
